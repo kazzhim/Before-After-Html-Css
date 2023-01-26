@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.programmer{
+    width: 300px;
+    border:2px solid gray;
+    padding: 30px;
+    margin:40px;
+}
+
+.programmer img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    
+}
+.information p{
+   
+    padding-top: 50px;
+    font-family:sans-serif;
+    font-weight: 750;
+    
+    color: black;
+    position:relative;
+}
+.programmer:hover{
+    background-color: aqua;
+}
+.programmer:hover p{
+    color: white;
+}
+
+.niye-CA{
+    position:relative;
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    margin: 35px;
+  }
+
+  
+  .tittle-niyeCA{
+    font-size: 40px;
+    font-weight:1000;
+  }
+
+  .title-bold-CA{
+    
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .niye-CA::after{
+    content: "";
+    width: 180px;
+    height: 12px;
+    position: absolute;
+    top: 40%;
+    border-radius: 30%;
+    background: #423560;
+  }
+  
+  .text-niye-CA{
+    position: absolute;
+    bottom: 20px;
+  }
